@@ -297,6 +297,35 @@ nav {
     height: 44px;
 }
 
+/* footer */
+footer {
+    background-color: rgba(10, 8, 38, 1);
+    color: white;
+    max-height: 270px;
+    min-width: 1110px;
+    text-align: center;
+}
+
+.footer-container {
+    margin-top: 100px;
+    padding: 50px;
+}
+
+.footer-text h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.footer-text p {
+    color: rgba(217, 219, 225, 1);
+    font-size: 0.675rem;
+    font-weight: 400;
+}
+
+.footer-icon i {
+    margin: 8px;
+}
+
 /* responsive section */
 @media screen and (max-width:576px) {
     nav {
@@ -408,5 +437,11 @@ nav {
 
     .featured-text-container button {
         padding: 30px;
+    }
+
+    footer {
+        margin-top: 200px;
+        max-height: 270px;
+        min-width: 410px;
     }
 }
