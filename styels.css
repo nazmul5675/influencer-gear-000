@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+
+.poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+/* nav */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.nav-logo {
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: rgba(58, 58, 58, 1);
+}
+
+.nav-item ul {
+    display: flex;
+
+}
+
+.nav-item li {
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgba(58, 58, 58, 1);
+    margin-right: 34px;
+}
+
+.nav-icon {
+    display: none;
+}
+
+/* nav end */
+/* banner-text */
+.banner-text h1 {
+    font-weight: 700;
+    font-size: 3.25rem;
+    color: rgba(58, 58, 58, 1);
+    margin-bottom: 16px;
+}
+
+.banner-text p {
+    font-weight: 400;
+    font-size: 1rem;
+    color: rgba(58, 58, 58, 1);
+    margin-bottom: 16px;
+}
+
+
+.banner-text button {
+    color: white;
+    background-color: rgba(224, 44, 109, 1);
+    height: 44px;
+    width: 196px;
+    border: none;
+    border-radius: 41px;
+}
+
+
+
+.img-camera {
+    position: relative;
+    margin-left: -470px;
+    margin-bottom: 30px;
+
+}
+
+.banner-img {
+    margin-top: 80px;
+}
+
+.banner-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+/* responsive section */
+@media screen and (max-width:576px) {
+    nav {
+        justify-content: center;
+    }
+
+    .nav-logo {
+        font-size: 0.775rem;
+        display: flex;
+        align-items: center;
+    }
+
+    .nav-item ul {
+        display: none;
+    }
+
+    .nav-icon {
+        display: inherit;
+        padding: 49px;
+    }
+
+    /* banner section */
+    .banner-container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-camera {
+        position: relative;
+        max-height: 257px;
+        max-width: 257px;
+        margin-left: 80px;
+        margin-top: -410px;
+    }
+
+    .img-circle {
+        max-height: 257px;
+        max-width: 257px;
+        margin-left: 80px;
+    }
+
+    .banner-text {
+        text-align: center;
+    }
+
+    .banner-text h1 {
+        font-size: 1.75rem;
+    }
+
+    .banner-text p {
+        font-size: 0.875rem;
+
+    }
+
+
+
+
+
+}
